@@ -1,4 +1,4 @@
-# Which Bird via Cochleargram
+# ForestScope
 
 | Training data                  | Testing/Validation Data   | Prediction data |
 | -----------                    | ----------- | ----------- |
