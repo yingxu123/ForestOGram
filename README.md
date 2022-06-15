@@ -2,7 +2,7 @@
   ForestOGram 
 </h1>.
 
-Sound source classification in the Mauritius and Réunion forest.
+ForestOGram is vapor atm, but in the long term it intends to be code for sound source classification in the Mauritius and Réunion forest.
 ![image](https://user-images.githubusercontent.com/7786645/173751900-211a8a66-0d8f-422b-ac66-5a18231ffc7a.png)
 
 
