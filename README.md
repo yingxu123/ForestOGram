@@ -1,6 +1,10 @@
 <h1 style="text-align: center;"> 
   ForestOGram 
-</h1>.
+</h1>
+
+
+![example workflow](https://github.com/russelljjarvis/ForestOGram/actions/workflows/python-app.yml/badge.svg)
+
 
 ForestOGram is vapor atm, but in the long term it intends to be code for sound source classification in the Mauritius and Réunion forest.
 ![image](https://user-images.githubusercontent.com/7786645/173751900-211a8a66-0d8f-422b-ac66-5a18231ffc7a.png)
