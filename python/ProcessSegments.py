@@ -19,17 +19,20 @@ from pydub.utils import get_array_type
 import wave
 
 import numpy as np
-
+import os
 
 def load_data():
-    path ="../mp3/XC155388-Pink Pigeon (song, Mauritius, Black River Gorge, nov2012, 2).MP3"
+    path = os.path.join(os.getcwd(), "../mp3", "XC155388-Pink_Pigeon_(song,_Mauritius,_Black_River_Gorge,_nov2012,_2).MP3")
+    print(path)
+    #path =
     sound = AudioSegment.from_file(file=path)
     fs = sound.frame_rate
     left = sound.split_to_mono()[1]
     bit_depth = left.sample_width * 8
     array_type = get_array_type(bit_depth)
     numeric_array = array.array(array_type, left._data)
-    labels = loadtxt("../onset_offset/XC155388 - Pink Pigeon - Nesoenas mayeri.txt")
+    path = os.path.join(os.getcwd(), "../onset_offset", "XC155388-Pink_Pigeon-Nesoenas_mayeri.txt")
+    labels = loadtxt(path)
     return (fs,numeric_array,sound,labels)
 def process_data():
     fs,numeric_array,sound,labels = load_data()
@@ -42,7 +45,7 @@ def process_data():
         write("../wav/segment_%s.wav" %ind, fs, int16(segment))
         print ("finish generating segment %s is from %s s (%s) to %s (%s)s" %(ind, lab[0], onset,lab[1], offset) )
     return segments
-segments = process_data()
+
 """
 old code
 num_label = np.shape(label)[0]
