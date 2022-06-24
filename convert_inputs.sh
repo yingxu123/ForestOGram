@@ -13,5 +13,7 @@ done
 ##
 # move the mp3 files into an mp3 directory
 ##
+mkdir wav
+mkdir mp3
 for f in *.mp3; do mv "$f" "mp3/${f}"; done
 for f in *.wav; do mv "$f" "wav/${f}"; done
