@@ -26,13 +26,13 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get install -y libsndfile1
+        python -m pip install --upgrade pip
+        pip install flake8 pytest
         git clone https://github.com/tyiannak/pyAudioAnalysis.git
         cd pyAudioAnalysis
         pip install -r ./requirements.txt
         pip install -e .
         cd ../
-        python -m pip install --upgrade pip
-        pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with flake8
       run: |
