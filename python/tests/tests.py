@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0,"../")
+sys.path.insert(0,"../../python")
 print(sys.path)
 import ProcessSegments
 def test_import():
