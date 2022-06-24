@@ -38,7 +38,7 @@ for ind,lab in enumerate(label):
 
 
 """
-Yings old code
+old code
 num_label = np.shape(label)[0]
 for raw in range(num_label):
     onset = int(label[raw, 0]*fs)
