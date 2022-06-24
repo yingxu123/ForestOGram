@@ -1,8 +1,8 @@
 import sys
 sys.path.insert(0,"../")
 sys.path.insert(0,"./")
-sys.path.insert(0,"/home/runner/work/ForestOGram/python")
-#print(sys.path)
+sys.path.insert(0,"/home/runner/work/ForestOGram/python/*")
+print(sys.path)
 import ProcessSegments
 def test_import():
     assert not type(ProcessSegments) is None
