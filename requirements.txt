@@ -1,0 +1,7 @@
+beautifulsoup4==4.11.1
+h5py==3.6.0
+matplotlib==3.5.1
+numpy==1.21.6
+pydub==0.25.1
+scipy==1.8.0
+SoundFile==0.10.3.post1
