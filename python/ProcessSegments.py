@@ -23,8 +23,6 @@ import os
 
 def load_data():
     path = os.path.join(os.getcwd(), "../mp3", "XC155388-Pink_Pigeon_(song,_Mauritius,_Black_River_Gorge,_nov2012,_2).MP3")
-    #print(path)
-    #path =
     sound = AudioSegment.from_file(file=path)
     fs = sound.frame_rate
     left = sound.split_to_mono()[1]
