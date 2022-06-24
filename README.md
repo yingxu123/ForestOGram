@@ -1,6 +1,8 @@
 <h1 style="text-align: center;"> 
   ForestOGram 
-</h1>.
+</h1>
+
+
 ![example workflow](https://github.com/russelljjarvis/ForestOGram/actions/workflows/python-app.yml/badge.svg)
 
 
