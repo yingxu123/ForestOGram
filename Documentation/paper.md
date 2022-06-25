@@ -25,8 +25,7 @@ date: June  2022
 Bibliography: paper.bib
 
 ### Summary
-The success of data driven modelling in ecology in someways depends on the quality observations recorded from the field. An low powered embedded real time sound source identifiers are an expected advance in the field of ecological surveying, but the realization of this technology has been hampered by difficulties in machine learning (solving the cocktail party effect), and the prohibitive requirement that expensive expert ecologists edit verify and generally intervene at with to data-engineer training and verification datasets. Here we present a new bio-inspired sound pre-processing tool, that can classify the rich and complicated bird and bat vocalisations in a confounding ecological setting. 
-
+The success of data driven modelling in ecology in someways depends on the quality observations recorded from the field. Low powered embedded real time sound source identifiers are an expected advance in the field of ecological surveying, but the realization of this technology has been hampered by difficulties in machine learning (solving the cocktail party effect), and the prohibitive requirement that expensive expert ecologists edit verify and generally intervene at with data. Generally expert ecologists are in demmand and they are too not available to data-engineer training and verification datasets. Here we present a standardised data set, that can be used with new bio-inspired sound pre-processing tools. The dataset will assist and spur on international efforts to master tough data dependent sound source classification problems.
 
 **Place holder:** Rather than providing feedback as to the complexity of a single text as previous tools have done, the tool presented here shows the relative complexity across many texts from the same author, while also comparing the readability of the author’s body of work to a variety of other scientific and lay text types.
 
@@ -43,8 +42,7 @@ The success of data driven modelling in ecology in someways depends on the quali
 
 # Data Descriptors:
 
-10 native birds, possibly 2 bats. 3 alien birds.
-2 bats: a fruit bat and an insect hunting bat.
+Data consists of rich and complicated bird and bat vocalisations in a confounding ecological setting. 
 
 Main endemics/natives:
 
