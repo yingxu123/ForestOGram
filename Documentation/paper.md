@@ -9,16 +9,16 @@ tags:
 
 authors:
   - name: Rafael Schouten
-    affiliation: Københavns Universitet 
+    affiliation: Center for Macroecology, Evolution and Climate, Københavns Universitet 
 
   - name: Ying Xu
-    affiliation: ICNS, MARCs, WSU
+    affiliation: International Center for Neuromorphic Systems, MARCs, Western Sydney University
 
   - name: Russell Jarvis
-    affiliation: ICNS, MARCs, WSU
+    affiliation: International Center for Neuromorphic Systems, MARCs, Western Sydney University
 
   - name: Saeed
-    affiliation: ICNS, MARCs, WSU
+    affiliation: International Center for Neuromorphic Systems, MARCs, Western Sydney University
 
 date: June  2022
 
