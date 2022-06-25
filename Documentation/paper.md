@@ -9,7 +9,7 @@ tags:
 
 authors:
   - name: Rafael Schouten
-    affiliation:
+    affiliation: Københavns Universitet 
 
   - name: Ying Xu
     affiliation: ICNS, MARCs, WSU
