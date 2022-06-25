@@ -6,7 +6,9 @@
 ![example workflow](https://github.com/russelljjarvis/ForestOGram/actions/workflows/python-app.yml/badge.svg)
 
 
-ForestOGram  intends to be code for sound source classification in the Mauritius and Réunion forest.
+ForestOGram  intends to be code for animal identification and sound source classification in the Mauritius and Réunion forest.
+
+It also intends to supply methods for building an fauna vocalisation data base in the Mauritius and Réunion forest.
 
 ![image](https://user-images.githubusercontent.com/7786645/173751900-211a8a66-0d8f-422b-ac66-5a18231ffc7a.png)
 
