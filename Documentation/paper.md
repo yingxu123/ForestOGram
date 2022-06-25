@@ -2,18 +2,22 @@
 title: 'Sonic Forest: a data base of varying fauna vocalisations and cochlea spikes for machine learning'
 
 tags:
-  - readability
-  - science communication
-  - science writing
-  - Natural Language Processing
+  - Neuromorphic Engineering
+  - Standardisation
+  - Ecology
+  - Machine Learning Data Set
 
 authors:
   - name: Rafael Schouten
     affiliation:
+
   - name: Ying Xu
     affiliation: ICNS, MARCs, WSU
 
   - name: Russell Jarvis
+    affiliation: ICNS, MARCs, WSU
+
+  - name: Saeed
     affiliation: ICNS, MARCs, WSU
 
 date: June  2022
@@ -21,7 +25,7 @@ date: June  2022
 Bibliography: paper.bib
 
 ### Summary
-Here we present a new text analysis tool capable of reviewing the complexity of a scientist’s published work relative to other online-based text repositories. Rather than providing feedback as to the complexity of a single text as previous tools have done, the tool presented here shows the relative complexity across many texts from the same author, while also comparing the readability of the author’s body of work to a variety of other scientific and lay text types.
+Here we present a new bio-inspired sound pre-processing tool, that can classify the rich and complicated bird and bat vocalisations in a confounding ecological setting. Rather than providing feedback as to the complexity of a single text as previous tools have done, the tool presented here shows the relative complexity across many texts from the same author, while also comparing the readability of the author’s body of work to a variety of other scientific and lay text types.
 
 The goal of this work is to apply a more data-driven approach that provides established academic authors with statistical insights into their body of published peer reviewed work. By monitoring these readability metrics, scientists may be able to cater their writing to reach broader audiences, contributing to an improved global communication and understanding of complex topics.
 
