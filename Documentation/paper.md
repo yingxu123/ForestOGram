@@ -1,5 +1,5 @@
 -----
-title: 'Sonic Forest: a data base of varying fauna vocalisations and cochlea spikes for machine learning'
+title: 'Sonic Forest: a Dataset of Varied Fauna Vocalisations for the Application of Conventional and Bio-Inspired Machine Learning'
 
 tags:
   - Ecologicolal Monitoring
