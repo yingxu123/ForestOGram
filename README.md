@@ -1,5 +1,5 @@
 <h1 style="text-align: center;"> 
-  ForestOGram aka SonicForest
+  Sonic Forest
 </h1>
 
 
