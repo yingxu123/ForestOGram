@@ -41,7 +41,7 @@ The success of data driven modelling in ecology in someways depends on the quali
 **Place holder:** The tool we describe consists of a text analysis service and an author search service. These services were created by using or extending many existing Free and Open Source (FOSS) tools, including streamlit, requests, WordCloud, TextStat, and The Natural Language Tool Kit (NLTK). The tool has the capability to retrieve journal hosting links and journal article content (both html and PDF) from application programming interfaces (APIs) and journal hosting websites. Several python libraries helped with querying and gaining access to open science scholarly research documents, and python-requests were used to obtain content from three different APIs, including [dissemin](https://gitlab.com/dissemin/dissemin), [semantic-scholar](https://www.semanticscholar.org/), and [unpaywall](https://unpaywall.org/faq).
 
 
-# Data Descriptors:
+#### Data Descriptors
 
 Data consists of rich and complicated bird and bat vocalisations in a confounding ecological setting. 
 
