@@ -1,4 +1,5 @@
-beautifulsoup4==4.11.1
+sounddevice
+soundfile
 h5py==3.6.0
 matplotlib==3.5.1
 numpy==1.21.6
