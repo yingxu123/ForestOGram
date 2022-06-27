@@ -15,6 +15,14 @@ cd ForestOGram
 sudo $(which pip) install -e .
 cd ..
 ```
+Or
+```
+git clone https://github.com/russelljjarvis/ForestOGram
+cd ForestOGram
+sudo $(which python) setup.py install
+cd ..
+```
+
 ![image](https://user-images.githubusercontent.com/7786645/173751900-211a8a66-0d8f-422b-ac66-5a18231ffc7a.png)
 
 
