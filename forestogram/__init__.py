@@ -1,2 +1,2 @@
-import process_segments
-ProcessSegments = process_segments
+import sound_segmentation
+ProcessSegments = sound_segmentation
