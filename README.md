@@ -1,4 +1,4 @@
-<h1 style="text-align: center;"> 
+<h1 style="text-align: center;">
   Sonic Forest
 </h1>
 
@@ -8,6 +8,13 @@
 
 ForestOGram  intends to be code for animal identification and sound source classification in the Mauritius and Réunion forest. ForestOGram also intends to supply methods for building a fauna vocalisation dataset pertaining to the forests of the Mauritius and Réunion island regions.
 
+## Getting Started
+```
+git clone https://github.com/russelljjarvis/ForestOGram
+cd ForestOGram
+sudo $(which pip) install -e .
+cd ..
+```
 ![image](https://user-images.githubusercontent.com/7786645/173751900-211a8a66-0d8f-422b-ac66-5a18231ffc7a.png)
 
 
@@ -50,4 +57,3 @@ Alien:
 | can be safely automated? | need data cuts to be verified by experts?  | need results to be verified by experts? |
 | N>=(500, inf) | N can be ?  | N can be ? |
 | Must contain a labelled target | May not contain any target species  | May not contain any target species  |
-

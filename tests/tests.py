@@ -2,7 +2,7 @@
 #sys.path.insert(0,"./python")
 #print(sys.path)
 
-import sound_segmentation
+from forestogram import sound_segmentation
 
 #ProcessSegments = sound_segmentation
 #import ProcessSegments
