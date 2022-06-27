@@ -31,7 +31,7 @@ setup(
     # There are some restrictions on what makes a valid project name
     # specification here:
     # https://packaging.python.org/specifications/core-metadata/#name
-    name="sonicforest",  # Required
+    name="forestogram",  # Required
     # Versions should comply with PEP 440:
     # https://www.python.org/dev/peps/pep-0440/
     #
@@ -91,7 +91,6 @@ setup(
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate you support Python 3. These classifiers are *not*
         # checked by 'pip install'. See instead 'python_requires' below.
-        "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9.12",
         "Programming Language :: Python :: 3.10",
@@ -105,7 +104,7 @@ setup(
     keywords="setuptools, development",  # Optional
     # When your source code is in a subdirectory under the project root, e.g.
     # `src/`, it is necessary to specify the `package_dir` argument.
-    package_dir={"": "forestogram"},  # Optional
+    package_dir={"": "."},  # Optional
     # You can just specify package directories manually here if your project is
     # simple. Or you can use find_packages().
     #
