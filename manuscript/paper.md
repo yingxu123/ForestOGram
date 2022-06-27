@@ -30,7 +30,7 @@ The success of data driven modelling in ecology in someways depends on the quali
 
 **Place holder:**  Why? for the Application of Conventional and Bio-Inspired Machine Learning
 
-**Place holder:** The goal of this work is to apply a more data-driven approach that provides established academic authors with statistical insights into their body of published peer reviewed work. By monitoring these readability metrics, scientists may be able to cater their writing to reach broader audiences, contributing to an improved global communication and understanding of complex topics.
+**Methods** The vast majority of the work involved processing and pre-processing many public domain sound files of animal species vocalisations. An existing tool "PyAudioAnalysis" was used to segmentate the files. PyAudioAnalysis also contained a two spectral based feature extraction algorithms that where used to inform a machine learning classifier. 
 
 
 ### Statement of Need
