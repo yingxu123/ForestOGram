@@ -1,4 +1,4 @@
-from numpy import *
+from numpy import int16
 import matplotlib
 import matplotlib.pyplot as plt
 import time
