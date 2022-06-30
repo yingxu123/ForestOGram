@@ -7,6 +7,7 @@ tags:
   - Neuromorphic Engineering
   - Machine Learning Data Set
   - Reproducible Data Engineering Workflow
+  - Cochlear Model
 
 authors:
   - name: Rafael Schouten
