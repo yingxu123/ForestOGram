@@ -1,5 +1,5 @@
 -----
-title: 'Sonic Forest: a Dataset of Koala Bellows and Vocalisations'
+title: 'a Data Analysis of Koala Bellows and Vocalisations'
 tags:
   - Ecologicolal Monitoring
   - Data Standardisation
