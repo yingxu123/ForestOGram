@@ -25,7 +25,7 @@ date: June  2022
 Bibliography: paper.bib
 
 ### Summary
-fdsafdsa
+
 The success of data driven modelling in ecology in someways depends on the quality observations recorded from the field. Low powered embedded real time sound source identifiers are an expected advance in the field of ecological surveying, but the realization of this technology has been hampered by difficulties in machine learning (solving the cocktail party effect), and the prohibitive requirement that expensive expert ecologists edit verify and manually intervene at the data engineering level. Generally expert ecologists are in demmand and they are too not available to data-engineer training and verification datasets. Here we present a standardised data set, that can be used with new bio-inspired sound pre-processing tools. The dataset will assist and spur on international efforts to master tough data dependent sound source classification problems.
 
 **Place holder:**  Why? for the Application of Conventional and Bio-Inspired Machine Learning
