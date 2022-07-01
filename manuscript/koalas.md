@@ -24,24 +24,23 @@ Bibliography: paper.bib
 
 ### Summary
 
-The success of data driven temporal-spatial models in ecology may depend on the quality observations recorded from the field. Low powered embedded real time sound source identifiers are an expected advance in the field of ecological surveying, but the realization of this technology has been hampered by difficulties in machine learning (solving the cocktail party effect), and the prohibitive requirement that expensive expert ecologists edit verify and manually intervene at the data engineering level. Generally expert ecologists are in demmand and they are too not available to data-engineer training and verification datasets. Here we present a standardised data set, that can be used with new bio-inspired sound pre-processing tools. The dataset will assist and spur on international efforts to master tough data dependent sound source classification problems.
+We enhanced an audio koala monitoring approach, using a spiking cochlea model so that it to perform koala count estimation, by classifying recordings as either containing koalas or not, counting koala occurences ultimately count information could be used to assign the presence of koalas to a geographic spaces, giving rise to density information.
 
-A bio-Inspired spiking cochlea model is efficient at noise suppression, and signal detection.
+## Methods
 
-**Methods** The vast majority of the work involved processing and pre-processing many public domain sound files of animal species vocalisations. An existing tool "PyAudioAnalysis" was used to segmentate the files. PyAudioAnalysis also contained a two spectral based feature extraction algorithms that where used to inform a machine learning classifier. 
+A bio-inspired spiking cochlea model is efficient at noise suppression, and signal detection. We used an existing Python tool PyAudioAnalysis to perform silence removal and koala recording signal segmentation. We then used the cochlea model to pre-process the mp3 files. Cochlea model pre-processing facilitated correct koala classification because it was able to re-represent koala bellows as a more sparse set of spectral features.
+
+PyAudioAnalysis also contained a two spectral based feature extraction algorithms that where used to inform a machine learning classifier.
 
 
 ### Statement of Need
-**Place holder:** To ensure that writing is accessible to the general population, authors must consider the length of written text, as well as sentence structure, vocabulary, and other language features [@Kutner:2006]. While popular magazines, newspapers, and other outlets purposefully cater language for a wide audience, there is a tendency for academic writing to use more complex, jargon-heavy language when publishing their work in scientific journals [@Plavén-Sigray:2017], a trend that is becoming more evident over time [@Ball:2017].
 
-**Place holder:** In the age of growing science communication, this tendency for scientists to use more complex language can carry over when writing in more mainstream media, such as blogs and social media. This can make public-facing material difficult to comprehend, undermining efforts to communicate scientific topics to the general public [@Shulman:2020]. This can contribute to a general misunderstanding of scientific concepts and a disconnect from scientists [@Schulman:2020].
-
-**Place holder:** The tool we describe consists of a text analysis service and an author search service. These services were created by using or extending many existing Free and Open Source (FOSS) tools, including streamlit, requests, WordCloud, TextStat, and The Natural Language Tool Kit (NLTK). The tool has the capability to retrieve journal hosting links and journal article content (both html and PDF) from application programming interfaces (APIs) and journal hosting websites. Several python libraries helped with querying and gaining access to open science scholarly research documents, and python-requests were used to obtain content from three different APIs, including [dissemin](https://gitlab.com/dissemin/dissemin), [semantic-scholar](https://www.semanticscholar.org/), and [unpaywall](https://unpaywall.org/faq).
+The success of data driven temporal-spatial models in ecology may depend on the quality observations recorded from the field. Low powered embedded real time sound source identifiers are an expected advance in the field of ecological surveying, but the realization of this technology has been hampered by difficulties in machine learning (solving the cocktail party effect), and the prohibitive requirement that expensive expert ecologists edit verify and manually intervene at the data engineering level. Generally expert ecologists are in demmand and they are too not available to data-engineer training and verification datasets.
 
 
 #### Data Descriptors
 
-Data consists of rich and complicated bird and bat vocalisations in a confounding ecological setting. 
+Data consists of rich and complicated bird and bat vocalisations in a confounding ecological setting.
 
 Main endemics/natives:
 
@@ -86,5 +85,3 @@ Alien:
 **Place holder:**  We present new and reusable methods for mining scientific literature by utilizing many free and newly available APIs dedicated responsible and free dissemination of open access science documents. The tool we described in this document is extensible such that code from various modules could be re-applied to ask more specific questions about readability of science documents.
 
 **Place holder:**  Because a user can download results from the science accessibility app. The tool makes it possible to compare two different scientific authors in the same field, and to compare their readability metrics. A comparison between two or more authors of the same field could be used to clarify if some fields really are generally harder to understand, or are some authors in the same field generally harder to understand.
-
-
