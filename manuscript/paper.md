@@ -1,11 +1,13 @@
 -----
 title: 'Sonic Forest: a Dataset of Complex and Varied Fauna Vocalisations'
+
 tags:
   - Ecologicolal Monitoring
   - Data Standardisation
   - Neuromorphic Engineering
   - Machine Learning Data Set
   - Reproducible Data Engineering Workflow
+  - Cochlear Model
 
 authors:
   - name: Rafael Schouten
